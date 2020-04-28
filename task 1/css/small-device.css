@@ -1,0 +1,134 @@
+
+
+  div{
+    display:block;
+    }
+
+    input{
+    background-color: #000000;
+    color: #4cc417;
+    border-radius: 10%;
+    text-align:center;
+    font-family: helvetica;
+    border-style:solid;
+    width:15vw;
+    height:15vw;
+    font-size:200%;
+    display:inline-block;
+    font:white;
+    visibility: hidden;
+    pointer-events:none;
+  }
+  .start{
+    visibility: visible;
+  }
+
+  #main{
+     position:absolute;
+     top:40vh;
+     left:12vw;;
+     border-width: 1px;
+     border-style:solid;
+
+  }
+  #submain{
+
+    visibility: hidden;
+  }
+
+  body{
+    margin:0;
+    background-color: rgba(0,0,0,0.8);
+  }
+
+  #start
+  {
+    pointer-events: auto;
+    width:15vw;
+    height:5vh;
+    border-radius: 15%;
+    position:absolute;
+    top:33vh;
+    left:43vw;
+  }
+  #restart
+  {
+    pointer-events: auto;
+    display:none;
+    width:20vw;
+    height: 5vh;
+    border-radius: 15%;
+    position:absolute;
+    top:33vh;
+    left:43vw;
+    float:right;
+  }
+  #quit
+  {
+    pointer-events: auto;
+    display:none;
+    width:20vw;
+    height: 5vh;
+    border-radius: 15%;
+    position:absolute;
+    top:33vh;
+    left:43vw;
+    float:right;
+  }
+
+  h1{
+    position:absolute;
+    display:block;
+    font-size: 400%;
+    top:0vh;
+    left:40vw;
+    text-align: center;
+    font-family:verdana;
+    color: #4cc417;
+  }
+  p{
+    position:absolute;
+    top:30vh;
+    left:10vw;
+    font-size: 300%;
+    font-family:arial;
+    color: #4cc417;
+  }
+  table{
+    font-size:300%;
+    color:white;
+  }
+  #timehead{
+    float:right;
+    display:block;
+    position:fixed;
+    top:10vh;
+    right:5vw;
+    font-family: verdana;
+    color:white;
+  }
+  #timee{
+    float:right;
+    display:block;
+    position:fixed;
+    top:13vh;
+    right:5vw;
+    font-family: verdana;
+    color:white;
+  }
+  #besttimes{
+    position: absolute;
+    top:10vh;
+    left:5vw;
+    font-family:verdana;
+    color:white;
+  }
+  #countdown
+  {
+    display: none;
+    position: absolute;
+    top:50vh;
+    left:50vw;
+    font-size: 2500%;
+    color: #ffffff;
+  }
